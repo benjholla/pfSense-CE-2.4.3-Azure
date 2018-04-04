@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 
 # credit to https://forum.pfsense.org/index.php?topic=112072.15
 # modifications by ben holland
