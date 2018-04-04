@@ -1,8 +1,11 @@
 #! /bin/sh
 
 # credit to https://forum.pfsense.org/index.php?topic=112072.15
+# modifications by ben holland
+
 # After installation, log in and choose:
 #  14) to enable sshd
+#  7) ping www.google.com to make sure connection to internet exists
 #  8) to login shell
 # curl -O https://github.com/benjholla/pfSense-CE-2.4.3-Azure/raw/master/azure-setup.sh
 
