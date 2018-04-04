@@ -1,5 +1,6 @@
 #! /bin/sh
 
+# credit to https://forum.pfsense.org/index.php?topic=112072.15
 # After installation, log in and choose:
 #  14) to enable sshd
 #  8) to login shell
