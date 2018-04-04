@@ -16,6 +16,8 @@ echo 'console="comconsole vidconsole"' >> /boot/loader.conf
 #echo 'comconsole_speed="115200"' >> /boot/loader.conf
 echo 'kldload udf'  >> /boot/loader.conf
 echo 'vfs.mountroot.timeout=300'  >> /boot/loader.conf
+
+# udf.ko originally from https://download.freebsd.org/ftp/releases/ISO-IMAGES/11.1/FreeBSD-11.1-RELEASE-amd64-bootonly.iso
 curl -O https://github.com/benjholla/pfSense-CE-2.4.3-Azure/raw/master/udf.ko
 mv udf.ko /boot/kernel/
 
